@@ -3,6 +3,6 @@ build:
 clean:
 	rm plugin
 docker-build:
-	docker build -t gcr.io/mesh7-public-images/vmwareallspark/istio-coredns-plugin:istio-1.2 .
+	docker build -t public.ecr.aws/v6x6b8s5/vmwareallspark/istio-coredns-plugin:0.2-istio-1.1-distroless .
 docker-push:
-	docker push gcr.io/mesh7-public-images/vmwareallspark/istio-coredns-plugin:istio-1.2
+	docker push public.ecr.aws/v6x6b8s5/vmwareallspark/istio-coredns-plugin:0.2-istio-1.1-distroless
